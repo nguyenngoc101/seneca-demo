@@ -1,0 +1,30 @@
+{
+  "name": "shopping-microservices",
+  "version": "1.0.0",
+  "description": "create microservices using seneca",
+  "main": "app-all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app-all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenngoc101/seneca-demo.git"
+  },
+  "keywords": [
+    "seneca"
+  ],
+  "author": "ngocnv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenngoc101/seneca-demo/issues"
+  },
+  "homepage": "https://github.com/nguyenngoc101/seneca-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "seneca-entity": "^2.0.2",
+    "seneca-web": "^2.1.0",
+    "seneca-web-adapter-express": "^1.0.2"
+  }
+}
